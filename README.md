@@ -1,7 +1,18 @@
 # README
 
-Job Scraper
+### Prerequisites
 
-Simple job-post-aggregator for job-listings. 
+Ruby 2.6.6 
+Rails 6.0.3.3 
+pg
+
+Installation
+Follow below steps:
+
+cd job-scraper
+
+bundle install rails db:create rails db:migrate rails s
+
+The app running => http://localhost:3000/
 
 Run locally: rake scrape
