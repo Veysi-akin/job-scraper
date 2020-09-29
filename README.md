@@ -2,11 +2,12 @@
 
 ### Prerequisites
 
-Ruby 2.6.6 
-Rails 6.0.3.3 
+Ruby 2.6.6 &&
+Rails 6.0.3.3 &&
 pg
 
-Installation
+### Installation
+
 Follow below steps:
 
 cd job-scraper
