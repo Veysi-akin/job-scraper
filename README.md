@@ -14,6 +14,6 @@ cd job-scraper
 
 bundle install rails db:create rails db:migrate rails s
 
-The app running => http://localhost:3000/
+open http://localhost:3000
 
 Run locally: rake scrape
