@@ -1,24 +1,32 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Job scraper
 
-Things you may want to cover:
+Job searching service using Ruby and Ruby On Rails.
 
-* Ruby version
+### Prerequisites
+Ruby 2.6.6
 
-* System dependencies
+Rails 6.0.3.3
 
-* Configuration
+pg
 
-* Database creation
+### Installation
 
-* Database initialization
+Follow below steps:
 
-* How to run the test suite
+git clone https://github.com/Veysi-akin/job-scraper.git
 
-* Services (job queues, cache servers, search engines, etc.)
+cd job-scraper
 
-* Deployment instructions
+bundle install
 
-* ...
+rails db:create
+
+rails db:migrate
+
+rails s
+
+open http://localhost:3000
+
+Run locally: rake scrape
