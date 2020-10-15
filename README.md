@@ -15,7 +15,7 @@ pg
 
 Follow below steps:
 
-git clone https://github.com/Veysi-akin/job-scraper.git
+git clone https://github.com/vysi/job-scraper.git
 
 cd job-scraper
 
