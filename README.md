@@ -2,10 +2,10 @@
 
 ### Job scraper
 
-Job searching service using Ruby and Ruby On Rails.
+Job search app using Ruby and Ruby On Rails.
 
 ### Prerequisites
-Ruby 2.6.6
+Ruby 2.7.2
 
 Rails 6.0.3.3
 
